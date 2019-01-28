@@ -1,10 +1,12 @@
 // mobile "coming soon" page under 768px
 function myFunction(x) {
   if (x.matches) { // if media query matches
-//    document.getElementsByClassName('about')[0].style.display = 'none';
-//    document.getElementsByClassName('column_container')[0].style.display = 'none';
-    document.getElementsByClassName('mobile')[0].style.display = 'block';
-    document.body.style.overflow = 'hidden';
+    document.getElementsByClassName('mobile')[0].style.display = 'block'; // show fullscreen mobile class
+    document.body.style.overflow = 'hidden'; // hide overflow of body (doesn't work)
+    var elems = document.getElementsByClassName('column_container'); // hides column_container classes (not sure if works)
+    for(var i = 0; i < elems.length; i++) {
+    elems[i].style.visibility = 'hidden';
+}
   }
 }
 var x = window.matchMedia("(max-width: 768px)")
