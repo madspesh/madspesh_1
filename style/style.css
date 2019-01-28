@@ -179,6 +179,24 @@ a.link_project_3:hover {
 
 /*	-------------	MISCELLANEOUS	-------------	*/
 
+.mobile {
+	background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+	height: 100%;
+	width: 100%;
+    z-index: 99;
+    display: none;
+}
+
+.mobile_centred {
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
 hr {
 	height: 0;
 	visibility: hidden;
@@ -186,6 +204,7 @@ hr {
 
 .column_container {
 	width: 100%;
+	display: block;
 }
 
 .column_quarter {
@@ -252,6 +271,7 @@ hr {
 .main_projects {
 	list-style: none;
 	z-index: 100;
+	display: block;
 }
 
 .main_projects_link {
@@ -285,6 +305,7 @@ hr {
 	position: relative;
 	padding-left: 3.2em;
 	padding-right: 3.2em;
+	display: block;
 }
 
 .about_blurb {

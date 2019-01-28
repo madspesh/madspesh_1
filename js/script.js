@@ -1,3 +1,17 @@
+// mobile "coming soon" page under 768px
+function myFunction(x) {
+  if (x.matches) { // if media query matches
+//    document.getElementsByClassName('about')[0].style.display = 'none';
+//    document.getElementsByClassName('column_container')[0].style.display = 'none';
+    document.getElementsByClassName('mobile')[0].style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+}
+var x = window.matchMedia("(max-width: 768px)")
+myFunction(x) // call listener function at run time
+x.addListener(myFunction) // attach listener function on state changes
+
+
 
 // to autoplay videos correctly
  $(document).ready(function() {
