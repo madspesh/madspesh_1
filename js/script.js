@@ -3,7 +3,7 @@ function myFunction(x) {
   if (x.matches) { // if media query matches
     document.getElementsByClassName('mobile')[0].style.display = 'block'; // show fullscreen mobile class
     document.body.style.overflow = 'hidden'; // hide overflow of body (doesn't work)
-    var elems = document.getElementsByClassName('column_container about'); // hides column_container classes (not sure if works)
+    var elems = document.getElementsByClassName('container'); // hides container class (not sure if works)
     for(var i = 0; i < elems.length; i++) {
     elems[i].style.visibility = 'hidden';
 }
