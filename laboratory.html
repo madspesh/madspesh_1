@@ -51,236 +51,238 @@
 
 
 
+	<div class="container">
 
-  	<div class="column_container">
+	  	<div class="column_container">
 
-  		<div class="lab_blurb">
+	  		<div class="lab_blurb">
 
-  			<div class="column_container">
-  				<div class="column_half lab_blurb_description">
-  					<br>
-			  		<h2>Just a place to share code-related things that I'm working on / experimenting with. <span role="image" aria-label="dunno">🤷‍♀️</span></h2>
-  					<br>
-				</div
-				><div class="column_half">
-  					<br>
-					<h3 style="padding-bottom: 0em"><a href="#p1" class="lab_title_link">A single serving site about coffee</a></h3>
-					<p class="main_description">Coffee ingredients revealed using HTML/CSS/JS</p>
-					<br>
-					<h3 style="padding-bottom: 0em"><a href="#p2" class="lab_title_link">Building a productivity system</a></h3>
-					<p class="main_description">Connecting Arduino hardware with Javascript libraries</p>
-					<br>
-					<h3 style="padding-bottom: 0em"><a href="#p3" class="lab_title_link">A responsive poem by Dorothy Parker</a></h3>
-					<p class="main_description">Designing for different screen sizes and devices</p>
-  					<br>
-  				</div>
+	  			<div class="column_container">
+	  				<div class="column_half lab_blurb_description">
+	  					<br>
+				  		<h2>Just a place to share code-related things that I'm working on / experimenting with. <span role="image" aria-label="dunno">🤷‍♀️</span></h2>
+	  					<br>
+					</div
+					><div class="column_half">
+	  					<br>
+						<h3 style="padding-bottom: 0em"><a href="#p1" class="lab_title_link">A single serving site about coffee</a></h3>
+						<p class="main_description">Coffee ingredients revealed using HTML/CSS/JS</p>
+						<br>
+						<h3 style="padding-bottom: 0em"><a href="#p2" class="lab_title_link">Building a productivity system</a></h3>
+						<p class="main_description">Connecting Arduino hardware with Javascript libraries</p>
+						<br>
+						<h3 style="padding-bottom: 0em"><a href="#p3" class="lab_title_link">A responsive poem by Dorothy Parker</a></h3>
+						<p class="main_description">Designing for different screen sizes and devices</p>
+	  					<br>
+	  				</div>
+				</div>
+
 			</div>
 
 		</div>
 
+
+
+	  	<div class="column_container">
+
+
+	  		<div id="p1" class="lab_project_light">
+
+
+	  			<div class="column_container">
+	  				<div class="column_quarter lab_project_description">
+						<p class="lab_title">Coffee Breakdown</p>
+					  	<hr>
+					  	<p>For my Typography and Interaction class, we were asked to design and build a single-serving site (SSS); a website composed of a single page with a dedicated domain name and which serves only one purpose.</p>
+					  	<hr>
+					  	<p>After exploring a few different concepts in Sketch, I settled on the domain name coffeebreakdown.com. The idea behind my site is quite simple; it’s a website which serves to break down the ingredients found in coffee drinks.</p>
+					  	<hr>
+					  	<br>
+				  		<h3>Concept</h3>
+					  	<p>Terms like Affogato, Breve and Ristretto can be quite confusing to a non coffee connoisseur, so I wanted to design a site which you could check whilst standing in line at a coffee shop, wondering what to order.</p>
+					  	<hr>
+					  	<p>I was inspired by coffee infographics found on sites such as Pinterest and Tumblr. I added elements of interactivity by providing descriptions of the coffee types on hover, and CSS animations of the ingredients on click.</p>
+					  	<hr>
+					  	<br>
+				  		<h3>Future Iterations</h3>
+					  	<p>My next steps are to add media queries for different breakpoints in order to optimise the site for different devices, and to possibly include translations of what the Italian/Spanish/Portuguese names mean. <a class="link_dotted_dark" target="_blank" href="https://madspesh.github.io/coffeebreakdown/">Click here</a> to view a prototype of the site so far.</p>
+				  	</div
+					><div class="column_three_quarters">
+						<div class="">
+				  			<img src="./style/img/coffeebreakdown_ideas.jpg" alt="Single Serving Site Ideas">
+				  		</div>
+						<div class="image_padding">
+				  			<img src="./style/img/coffeebreakdown_css.jpg" alt="CSS Animations">
+				  		</div>
+						<div class="">
+							<video autoplay="autoplay" loop="loop" class="video_1">
+			            		<source src="./style/img/coffeebreakdown_video_1.mp4" type="video/mp4">
+			          			Your browser does not support the video tag.
+			          		</video>
+	   			  		</div>
+					</div>
+				</div>
+
+
+			</div>
+
+
+
+			<div id="p2" class="lab_project_dark">
+
+
+	  			<div class="column_container">
+	  				<div class="column_quarter lab_project_description">
+						<p class="lab_title">Workmode</p>
+					  	<hr>
+					  	<p>I'm creating a productivity system for people who have a list of tasks to do, and just need some quiet time in order to get everything done. The audience I’m targeting are people who work in public spaces such as shared offices, classrooms, libraries, coffee shops, etc.</p>
+					  	<hr>
+					  	<p>My system is composed of two elements; a website and a desk light. The website has a to-do list of tasks which users can add to, cross off and delete. It also has a colour-picker which allows users to set their desk light to green (available) or red (do not disturb).</p>
+					  	<hr>
+					  	<p>The user can connect to the website through their browser, and have it running in the background as they work. The desk light functionality is built from an RGB LED connected to an Arduino. The light will be powered via a USB cable connected to the user’s computer. I’ve used a Javascript library called Johnny-Five to program the LED.</p>
+					  	<hr>
+					  	<br>
+				  		<h3>Process</h3>
+					  	<p>I designed the website using HTML/CSS/JS. The user can connect to the website through their browser, and have it running in the background as they work. It will also be responsive so that users can access the website on their tablet or phone; giving the system more of an app-like experience.</p>
+					  	<hr>
+					  	<p>The desk light functionality is built from an RGB LED connected to an Arduino. The light will be powered via a USB cable connected to the user’s computer. I’ve used a Javascript library called Johnny-Five to program the LED.</p>
+					  	<hr>
+					  	<br>
+				  		<h3>Arduino + Javascript</h3>
+					  	<p>I first created a paper prototype of the desk light in my productivity system in order to find the best way to house the LED component. I wanted to answer questions like; Where should the light be placed on the desk? Should it be separate from or attached to the computer? Or could it even be attached to the user?</p>
+					  	<hr>
+					  	<p>Next, I built the circuit and created a working prototype of my desk light using Arduino, a large breadboard, and a RGB LED. I wanted to test out the core interactivity of my system, and create a base index.html to begin coding.</p>
+					  	<hr>
+					  	<p>I prepared my Arduino to receive Javascript files by uploading StandardFirmata Plus and installing node.js, johnny-five and Websockets libraries to my computer. By creating a local ‘express’ web server and adding some client-side Javascript code, I was able to connect the RGB values of the LED to three HTML input range objects.</p>
+					  	<hr>
+					  	<br>
+				  		<h3>Final Prototype</h3>
+					  	<p>Lastly I built my final prototype, crafting a wooden box for the Arduino to use as a base for my desk light’s ‘lampshade’. The lampshade is a pyramid shape which I 3D printed from translucent PLA.</p>
+					  	<hr>
+					  	<p>I designed a logo for my productivity system and gave it the name ‘Workspace’. The branding is featured on the accompanying website, and it is also laser-etched onto the wooden base of the desk light.</p>
+					  	<hr>
+					  	<p>For future iterations, I’m planning to write a new script which will allow the desk light to slowly transition from red to green as tasks become completed. I’d also like to integrate alerts into the website to remind users to take a break from the screen, walk around, stay hydrated, etc.</p>
+				  	</div
+					><div class="column_three_quarters">
+						<div class="">
+				  			<img src="./style/img/workmode_figma.jpg" alt="Designing in Figma">
+				  		</div>
+						<div class="image_padding">
+				  			<img src="./style/img/workmode_js.jpg" alt="Coding in Javascript">
+				  		</div>
+						<div class="">
+							<video autoplay="autoplay" loop="loop" class="video_1">
+			            		<source src="./style/img/workmode_video_1.mp4" type="video/mp4">
+			          			Your browser does not support the video tag.
+			          		</video>
+	   			  		</div>
+						<div class="image_padding">
+				  			<img src="./style/img/workmode_prototype_1.jpg" alt="Paper Prototype">
+				  		</div>
+				  		<div class="image_padding">
+				  			<img src="./style/img/workmode_production_2.jpg" alt="Laser Cut and 3D Printing">
+				  		</div>
+				  		<div class="">
+				  			<img src="./style/img/workmode_prototype_2.jpg" alt="Final Prototype">
+				  		</div>
+						<div class="image_padding">
+							<video autoplay="autoplay" loop="loop" class="video_1">
+			            		<source src="./style/img/workmode_video_2.mp4" type="video/mp4">
+			          			Your browser does not support the video tag.
+			          		</video>
+	   			  		</div>
+					</div>
+				</div>
+
+				
+			</div>
+
+
+
+			<div id="p3" class="lab_project_light">
+
+
+	  			<div class="column_container">
+	  				<div class="column_quarter lab_project_description">
+						<p class="lab_title">Responsive Contexts</p>
+					  	<hr>
+					  	<p>Another project brief from my Typography and Interaction class was to design a digital interface for a poem which works across three specific devices and responds to the affordances inherent in each.</p>
+					  	<hr>
+					  	<p>We were asked to consider the poem’s context, as well as how the design might change to accommodate the three platforms we'd chosen. In what ways is it the same? In what ways is it different?</p>
+					  	<hr>
+					  	<br>
+				  		<h3>Poem</h3>
+					  	<p>The poem I picked was “Resumé” by Dorothy Parker. It’s quite a dark poem but it also has a humorous and sarcastic undertone, and there is a ray of hope at the end. It reads as follows:</p>
+					  	<hr>
+					  	<p class="italic">Razors pain you;</p>
+						<p class="italic">Rivers are damp;</p>
+						<p class="italic">Acids stain you;</p>
+						<p class="italic">And drugs cause cramp.</p>
+						<p class="italic">Guns aren’t lawful;</p>
+						<p class="italic">Nooses give;</p>
+						<p class="italic">Gas smells awful;</p>
+						<p class="italic">You might as well live.</p>
+						<hr>
+					  	<p>The contexts I decided to design for were standard desktop, mobile and Apple watch. I had several initial ideas ranging from a simple scrolling page with text weaving in and out of fixed SVG elements, to a neon interface which displayed different lines of the poem on hover/click.</p>
+					  	<hr>
+					  	<br>
+				  		<h3>Desktop</h3>
+					  	<p>The route I developed has a different interaction for each of the three viewports. On desktop, the viewport is divided into a 4x2 grid with each section representing a line from the poem. CSS animated vectors appear when you hover over each section. When you click the section is removed; revealing the entire poem line by line.</p>
+					  	<hr>
+					  	<br>
+					  	<h3>Phone</h3>
+					  	<p>On mobile, the poem is read in a continuous scroll with the vectors providing a background to each line of text. As you scroll through each section the vectors collapse on top of each other, resulting in a mish-mash of random shapes at the end.</p>
+					  	<hr>
+					  	<br>
+					  	<h3>Watch</h3>
+					  	<p>On the Apple watch, the poem is read by swiping right-to-left on each line. The vectors once again provide backgrounds to the text, and as you swipe through the poem each section is introduced as a new layer on top of the previous.</p>
+					  	<hr>
+					  	<br>
+					  	<h3>Future Iterations</h3>
+					  	<p>So far I have optimised the site for desktop, which you can view by <a class="link_dotted_dark" target="_blank" href="https://dorothy-parker.glitch.me/">clicking here</a>. My next steps are to write media queries for the mobile and watch breakpoints, and to test out how the site actually functions on these devices.</p>
+					  	<hr>
+					  	<p>I also need to fix a bug which is causing the noose vector to appear twice on hover. There is a harsh cut-off point on the shadow of each vector which is only apparent once sections have been removed, so this is another area that I need to take a second look at.</p>
+					  	<hr>
+					  	<br>
+				  	</div
+					><div class="column_three_quarters">
+						<div class="">
+				  			<img src="./style/img/dorothyparker_idea_1.jpg" alt="Continuous Scroll Idea">
+				  		</div>
+						<div class="image_padding">
+				  			<img src="./style/img/dorothyparker_idea_2.jpg" alt="Neon Interface Idea">
+				  		</div>
+						<div class="">
+							<video autoplay="autoplay" loop="loop" class="video_1">
+			            		<source src="./style/img/dorothyparker_desktop.mp4" type="video/mp4">
+			          			Your browser does not support the video tag.
+			          		</video>
+	   			  		</div>
+	   			  		<div class="image_padding">
+							<video autoplay="autoplay" loop="loop" class="video_1">
+			            		<source src="./style/img/dorothyparker_phone.mp4" type="video/mp4">
+			          			Your browser does not support the video tag.
+			          		</video>
+	   			  		</div>
+						<div class="">
+				  			<img src="./style/img/dorothyparker_watch.jpg" alt="Design for the Apple Watch">
+				  		</div>
+				  		<div class="image_padding">
+				  			<img src="./style/img/dorothyparker_jquery.jpg" alt="Coding in jQuery">
+				  		</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<!--<div class="copyright_right_align">
+				<h6>Site design & code © Rebecca Gill Clarke, 2019.</h6>
+			</div>-->
+
+		</div>
+		
 	</div>
-
-
-
-  	<div class="column_container">
-
-
-  		<div id="p1" class="lab_project_light">
-
-
-  			<div class="column_container">
-  				<div class="column_quarter lab_project_description">
-					<p class="lab_title">Coffee Breakdown</p>
-				  	<hr>
-				  	<p>For my Typography and Interaction class, we were asked to design and build a single-serving site (SSS); a website composed of a single page with a dedicated domain name and which serves only one purpose.</p>
-				  	<hr>
-				  	<p>After exploring a few different concepts in Sketch, I settled on the domain name coffeebreakdown.com. The idea behind my site is quite simple; it’s a website which serves to break down the ingredients found in coffee drinks.</p>
-				  	<hr>
-				  	<br>
-			  		<h3>Concept</h3>
-				  	<p>Terms like Affogato, Breve and Ristretto can be quite confusing to a non coffee connoisseur, so I wanted to design a site which you could check whilst standing in line at a coffee shop, wondering what to order.</p>
-				  	<hr>
-				  	<p>I was inspired by coffee infographics found on sites such as Pinterest and Tumblr. I added elements of interactivity by providing descriptions of the coffee types on hover, and CSS animations of the ingredients on click.</p>
-				  	<hr>
-				  	<br>
-			  		<h3>Future Iterations</h3>
-				  	<p>My next steps are to add media queries for different breakpoints in order to optimise the site for different devices, and to possibly include translations of what the Italian/Spanish/Portuguese names mean. <a class="link_dotted_dark" target="_blank" href="https://madspesh.github.io/coffeebreakdown/">Click here</a> to view a prototype of the site so far.</p>
-			  	</div
-				><div class="column_three_quarters">
-					<div class="">
-			  			<img src="./style/img/coffeebreakdown_ideas.jpg" alt="Single Serving Site Ideas">
-			  		</div>
-					<div class="image_padding">
-			  			<img src="./style/img/coffeebreakdown_css.jpg" alt="CSS Animations">
-			  		</div>
-					<div class="">
-						<video autoplay="autoplay" loop="loop" class="video_1">
-		            		<source src="./style/img/coffeebreakdown_video_1.mp4" type="video/mp4">
-		          			Your browser does not support the video tag.
-		          		</video>
-   			  		</div>
-				</div>
-			</div>
-
-
-		</div>
-
-
-
-		<div id="p2" class="lab_project_dark">
-
-
-  			<div class="column_container">
-  				<div class="column_quarter lab_project_description">
-					<p class="lab_title">Workmode</p>
-				  	<hr>
-				  	<p>I'm creating a productivity system for people who have a list of tasks to do, and just need some quiet time in order to get everything done. The audience I’m targeting are people who work in public spaces such as shared offices, classrooms, libraries, coffee shops, etc.</p>
-				  	<hr>
-				  	<p>My system is composed of two elements; a website and a desk light. The website has a to-do list of tasks which users can add to, cross off and delete. It also has a colour-picker which allows users to set their desk light to green (available) or red (do not disturb).</p>
-				  	<hr>
-				  	<p>The user can connect to the website through their browser, and have it running in the background as they work. The desk light functionality is built from an RGB LED connected to an Arduino. The light will be powered via a USB cable connected to the user’s computer. I’ve used a Javascript library called Johnny-Five to program the LED.</p>
-				  	<hr>
-				  	<br>
-			  		<h3>Process</h3>
-				  	<p>I designed the website using HTML/CSS/JS. The user can connect to the website through their browser, and have it running in the background as they work. It will also be responsive so that users can access the website on their tablet or phone; giving the system more of an app-like experience.</p>
-				  	<hr>
-				  	<p>The desk light functionality is built from an RGB LED connected to an Arduino. The light will be powered via a USB cable connected to the user’s computer. I’ve used a Javascript library called Johnny-Five to program the LED.</p>
-				  	<hr>
-				  	<br>
-			  		<h3>Arduino + Javascript</h3>
-				  	<p>I first created a paper prototype of the desk light in my productivity system in order to find the best way to house the LED component. I wanted to answer questions like; Where should the light be placed on the desk? Should it be separate from or attached to the computer? Or could it even be attached to the user?</p>
-				  	<hr>
-				  	<p>Next, I built the circuit and created a working prototype of my desk light using Arduino, a large breadboard, and a RGB LED. I wanted to test out the core interactivity of my system, and create a base index.html to begin coding.</p>
-				  	<hr>
-				  	<p>I prepared my Arduino to receive Javascript files by uploading StandardFirmata Plus and installing node.js, johnny-five and Websockets libraries to my computer. By creating a local ‘express’ web server and adding some client-side Javascript code, I was able to connect the RGB values of the LED to three HTML input range objects.</p>
-				  	<hr>
-				  	<br>
-			  		<h3>Final Prototype</h3>
-				  	<p>Lastly I built my final prototype, crafting a wooden box for the Arduino to use as a base for my desk light’s ‘lampshade’. The lampshade is a pyramid shape which I 3D printed from translucent PLA.</p>
-				  	<hr>
-				  	<p>I designed a logo for my productivity system and gave it the name ‘Workspace’. The branding is featured on the accompanying website, and it is also laser-etched onto the wooden base of the desk light.</p>
-				  	<hr>
-				  	<p>For future iterations, I’m planning to write a new script which will allow the desk light to slowly transition from red to green as tasks become completed. I’d also like to integrate alerts into the website to remind users to take a break from the screen, walk around, stay hydrated, etc.
-			  	</div
-				><div class="column_three_quarters">
-					<div class="">
-			  			<img src="./style/img/workmode_figma.jpg" alt="Designing in Figma">
-			  		</div>
-					<div class="image_padding">
-			  			<img src="./style/img/workmode_js.jpg" alt="Coding in Javascript">
-			  		</div>
-					<div class="">
-						<video autoplay="autoplay" loop="loop" class="video_1">
-		            		<source src="./style/img/workmode_video_1.mp4" type="video/mp4">
-		          			Your browser does not support the video tag.
-		          		</video>
-   			  		</div>
-					<div class="image_padding">
-			  			<img src="./style/img/workmode_prototype_1.jpg" alt="Paper Prototype">
-			  		</div>
-			  		<div class="image_padding">
-			  			<img src="./style/img/workmode_production_2.jpg" alt="Laser Cut and 3D Printing">
-			  		</div>
-			  		<div class="">
-			  			<img src="./style/img/workmode_prototype_2.jpg" alt="Final Prototype">
-			  		</div>
-					<div class="image_padding">
-						<video autoplay="autoplay" loop="loop" class="video_1">
-		            		<source src="./style/img/workmode_video_2.mp4" type="video/mp4">
-		          			Your browser does not support the video tag.
-		          		</video>
-   			  		</div>
-				</div>
-			</div>
-
-			
-		</div>
-
-
-
-		<div id="p3" class="lab_project_light">
-
-
-  			<div class="column_container">
-  				<div class="column_quarter lab_project_description">
-					<p class="lab_title">Responsive Contexts</p>
-				  	<hr>
-				  	<p>Another project brief from my Typography and Interaction class was to design a digital interface for a poem which works across three specific devices and responds to the affordances inherent in each.</p>
-				  	<hr>
-				  	<p>We were asked to consider the poem’s context, as well as how the design might change to accommodate the three platforms we'd chosen. In what ways is it the same? In what ways is it different?</p>
-				  	<hr>
-				  	<br>
-			  		<h3>Poem</h3>
-				  	<p>The poem I picked was “Resumé” by Dorothy Parker. It’s quite a dark poem but it also has a humorous and sarcastic undertone, and there is a ray of hope at the end. It reads as follows:</p>
-				  	<hr>
-				  	<p class="italic">Razors pain you;</p>
-					<p class="italic">Rivers are damp;</p>
-					<p class="italic">Acids stain you;</p>
-					<p class="italic">And drugs cause cramp.</p>
-					<p class="italic">Guns aren’t lawful;</p>
-					<p class="italic">Nooses give;</p>
-					<p class="italic">Gas smells awful;</p>
-					<p class="italic">You might as well live.</p>
-					<hr>
-				  	<p>The contexts I decided to design for were standard desktop, mobile and Apple watch. I had several initial ideas ranging from a simple scrolling page with text weaving in and out of fixed SVG elements, to a neon interface which displayed different lines of the poem on hover/click.</p>
-				  	<hr>
-				  	<br>
-			  		<h3>Desktop</h3>
-				  	<p>The route I developed has a different interaction for each of the three viewports. On desktop, the viewport is divided into a 4x2 grid with each section representing a line from the poem. CSS animated vectors appear when you hover over each section. When you click the section is removed; revealing the entire poem line by line.</p>
-				  	<hr>
-				  	<br>
-				  	<h3>Phone</h3>
-				  	<p>On mobile, the poem is read in a continuous scroll with the vectors providing a background to each line of text. As you scroll through each section the vectors collapse on top of each other, resulting in a mish-mash of random shapes at the end.</p>
-				  	<hr>
-				  	<br>
-				  	<h3>Watch</h3>
-				  	<p>On the Apple watch, the poem is read by swiping right-to-left on each line. The vectors once again provide backgrounds to the text, and as you swipe through the poem each section is introduced as a new layer on top of the previous.</p>
-				  	<hr>
-				  	<br>
-				  	<h3>Future Iterations</h3>
-				  	<p>So far I have optimised the site for desktop, which you can view by <a class="link_dotted_dark" target="_blank" href="https://dorothy-parker.glitch.me/">clicking here</a>. My next steps are to write media queries for the mobile and watch breakpoints, and to test out how the site actually functions on these devices.</p>
-				  	<hr>
-				  	<p>I also need to fix a bug which is causing the noose vector to appear twice on hover. There is a harsh cut-off point on the shadow of each vector which is only apparent once sections have been removed, so this is another area that I need to take a second look at.</p>
-				  	<hr>
-				  	<br>
-			  	</div
-				><div class="column_three_quarters">
-					<div class="">
-			  			<img src="./style/img/dorothyparker_idea_1.jpg" alt="Continuous Scroll Idea">
-			  		</div>
-					<div class="image_padding">
-			  			<img src="./style/img/dorothyparker_idea_2.jpg" alt="Neon Interface Idea">
-			  		</div>
-					<div class="">
-						<video autoplay="autoplay" loop="loop" class="video_1">
-		            		<source src="./style/img/dorothyparker_desktop.mp4" type="video/mp4">
-		          			Your browser does not support the video tag.
-		          		</video>
-   			  		</div>
-   			  		<div class="image_padding">
-						<video autoplay="autoplay" loop="loop" class="video_1">
-		            		<source src="./style/img/dorothyparker_phone.mp4" type="video/mp4">
-		          			Your browser does not support the video tag.
-		          		</video>
-   			  		</div>
-					<div class="">
-			  			<img src="./style/img/dorothyparker_watch.jpg" alt="Design for the Apple Watch">
-			  		</div>
-			  		<div class="image_padding">
-			  			<img src="./style/img/dorothyparker_jquery.jpg" alt="Coding in jQuery">
-			  		</div>
-				</div>
-			</div>
-
-
-		</div>
-
-		<!--<div class="copyright_right_align">
-			<h6>Site design & code © Rebecca Gill Clarke, 2019.</h6>
-		</div>-->
-
-	</div>
-
 
 
   <script src="js/jquery-3.3.1.min.js"></script>
