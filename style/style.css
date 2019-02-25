@@ -103,61 +103,73 @@ h6 {
 a {
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.8);
+	cursor: pointer;
 }
 
 a:hover {
 	color: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 }
 
 a.link_dotted_light {
 	color: rgba(255, 255, 255, 1);
 	text-decoration: none;
 	border-bottom: 1px dotted currentColor;
+	cursor: pointer;
 }
 
 a.link_dotted_light:hover {
 	color: rgba(255, 255, 255, 0.5);
 	text-decoration: none;
 	border-bottom: 1px dotted currentColor;
+	cursor: pointer;
 }
 
 a.link_dotted_dark {
 	color: rgba(0, 0, 0, 0.8);
 	text-decoration: none;
 	border-bottom: 1px dotted currentColor;
+	cursor: pointer;
 }
 
 a.link_dotted_dark:hover {
 	color: rgba(0, 0, 0, 0.3);
 	text-decoration: none;
 	border-bottom: 1px dotted currentColor;
+	cursor: pointer;
 }
 
 a.link_project_1 {
 	text-decoration: none;
 	border-bottom: 2px dotted currentColor;
+	cursor: pointer;
 }
 
 a.link_project_1:hover {
 	color: #FF245E;
+	cursor: pointer;
 }
 
 a.link_project_2 {
 	text-decoration: none;
 	border-bottom: 2px dotted currentColor;
+	cursor: pointer;
 }
 
 a.link_project_2:hover {
 	color: #029AC6;
+	cursor: pointer;
 }
 
 a.link_project_3 {
 	text-decoration: none;
 	border-bottom: 2px dotted currentColor;
+	cursor: pointer;
 }
 
 a.link_project_3:hover {
 	color: #D42D17;
+	cursor: pointer;
 }
 
 .lab_title_link {
@@ -166,6 +178,7 @@ a.link_project_3:hover {
 	font-size: 1.5em;
 	line-height: 1.7em;	text-decoration: none;
 	border-bottom: 1.5px dotted currentColor;
+	cursor: pointer;
 }
 
 
@@ -388,7 +401,7 @@ hr {
 
 .grid_small_1a:hover .grid_small_1a_image,
 .grid_small_1a:focus .grid_small_1a_image {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .grid_small_1a_image {
@@ -412,7 +425,7 @@ hr {
 
 .grid_small_1b:hover .grid_small_1b_image,
 .grid_small_1b:focus .grid_small_1b_image {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .grid_small_1b_image {
@@ -436,7 +449,7 @@ hr {
 
 .grid_small_2a:hover .grid_small_2a_image,
 .grid_small_2a:focus .grid_small_2a_image {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .grid_small_2a_image {
@@ -461,7 +474,7 @@ hr {
 
 .grid_small_2b:hover .grid_small_2b_image,
 .grid_small_2b:focus .grid_small_2b_image {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .grid_small_2b_image {
@@ -486,7 +499,7 @@ hr {
 
 .grid_small_3a:hover .grid_small_3a_image,
 .grid_small_3a:focus .grid_small_3a_image {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .grid_small_3a_image {
@@ -511,7 +524,7 @@ hr {
 
 .grid_small_3b:hover .grid_small_3b_image,
 .grid_small_3b:focus .grid_small_3b_image {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .grid_small_3b_image {
@@ -536,7 +549,7 @@ hr {
 
 .grid_small_4a:hover .grid_small_4a_image,
 .grid_small_4a:focus .grid_small_4a_image {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .grid_small_4a_image {
@@ -560,7 +573,7 @@ hr {
 
 .grid_small_4b:hover .grid_small_4b_image,
 .grid_small_4b:focus .grid_small_4b_image {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .grid_small_4b_image {
