@@ -23,7 +23,7 @@ body {
 h1 {
 	font-family: 'Comfortaa', sans-serif;
 	font-weight: 400;
-	font-size: 2.8em;
+	font-size: 3.4em;
 	line-height: 1.5em;
 }
 
@@ -67,6 +67,20 @@ h6 {
 	font-size: 1.2em;
 	line-height: 1.5em;
 	padding-top: 0.4em;
+}
+
+.overlay_title {
+    font-family: 'Comfortaa', sans-serif;
+	font-weight: 400;
+	font-size: 2.5em;
+	line-height: 1.5em;
+}
+
+.overlay_description {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 1.6em;
 }
 
 .main_about_title {
@@ -277,19 +291,196 @@ hr {
 }
 
 
+/*	-------------	CSS GRID	-------------	*/
+
+.grid_container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 0;
+    grid-row-gap: 0;
+	grid-template-areas: 
+    "large1 large1 small1a small1b"
+    "large1 large1 large2 large2"
+    "small2a small2b large2 large2"
+    "large3 large3 small3a small3b"
+    "large3 large3 large4 large4"
+    "small4a small4b large4 large4";
+}
+
+.grid_large_1 {
+	background-image: url("./img/actiontime_UI_2.png");
+    background-color: rgba(255, 255, 255, 0.6);
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+	grid-area: large1;
+}
+
+.grid_large_1:hover .overlay {
+	transform: translateY(0px);
+    opacity: 0.9;
+    background-color: rgba(255, 36, 94, 1);
+}
+
+.grid_large_2 {
+	background-image: url("./img/perfectweekend_image_2.png");
+    background-color: rgba(255, 255, 255, 1);
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+	grid-area: large2;
+}
+
+.grid_large_2:hover .overlay {
+	transform: translateY(0px);
+    opacity: 0.9;
+    background-color: rgba(38, 38, 38, 1);
+}
+
+.grid_large_3 {
+	background-image: url("./img/sensibleportions_image_1.png");
+    background-color: rgba(255, 255, 255, 1);
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+	grid-area: large2;
+}
+
+.grid_large_3:hover .overlay {
+	transform: translateY(0px);
+    opacity: 0.9;
+    background-color: rgba(23, 111, 176, 1);
+}
+
+.grid_large_4 {
+	background-image: url("./img/hotelprices_image_3.png");
+    background-color: rgba(255, 255, 255, 1);
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+	grid-area: large2;
+}
+
+.grid_large_4:hover .overlay {
+	transform: translateY(0px);
+    opacity: 0.9;
+    background-color: rgba(220, 59, 21, 1);
+}
+
+.grid_small_1a {
+	background-image: url("./img/actiontime_gif_2.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 50vh;
+	grid-area: small1a;
+}
+
+.grid_small_1b {
+	background-image: url("./img/actiontime_illustration.png");
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 50vh;
+	grid-area: small1b;
+}
+
+.grid_small_2a {
+	background-image: url("./img/perfectweekend_tablet_2.png");
+	background-color: rgba(212, 45, 23, 1);
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 50vh;
+	grid-area: small2a;
+}
+
+.grid_small_2b {
+	background-image: url("./img/perfectweekend_mobile_1.png");
+    background-color: rgba(255, 204, 153, 1);
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 50vh;
+	grid-area: small2b;
+}
+
+.grid_small_3a {
+	background-image: url("./img/sensibleportions_tablet_1.png");
+    background-color: rgba(252, 209, 51, 1);
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 50vh;
+	grid-area: small3a;
+}
+
+.grid_small_3b {
+	background-image: url("./img/sensibleportions_mobile_1.png");
+    background-color: rgba(109, 190, 69, 1);
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 50vh;
+	grid-area: small3b;
+}
+
+.grid_small_4a {
+	background-image: url("./img/hotelprices_gif_1.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 50vh;
+	grid-area: small4a;
+}
+
+.grid_small_4b {
+	background-image: url("./img/hotelprices_desktop_2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 50vh;
+	grid-area: small4b;
+}
+
+.overlay {
+  	display: block;
+    top: 40%;
+    color: white;
+    opacity: 0;
+    transition: all .3s ease;
+    height: 100vh;
+    padding: 4em;
+    box-sizing: border-box;
+}
+
+.overlay_read_more {
+	bottom: 4em;
+	position: absolute;
+}
+
+
+
+
 /*	-------------	MAIN PAGE SECTION	-------------	*/
 
 .main {
 	background-color: rgba(0, 0, 0, 0.1);
 	width: 100%;
-	height: 100vh;
+/*	height: 100vh;*/
 	padding: 6em;
 	box-sizing: border-box;
 }
 
 .main_intro {
 	width: 85%;
-	padding-bottom: 4em;
+	padding-bottom: 8em;
+	padding-top: 4em;
 }
 
 .main_projects {
@@ -322,7 +513,7 @@ hr {
 /*	-------------	ABOUT	-------------	*/
 
 .about {
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.1);
 	width: 100%;
 	height: 100vh;
 	box-sizing: border-box;
