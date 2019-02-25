@@ -316,12 +316,14 @@ hr {
   	background-size: cover;
   	height: 100vh;
 	grid-area: large1;
+	cursor: pointer;
 }
 
 .grid_large_1:hover .overlay {
 	transform: translateY(0px);
     opacity: 0.9;
     background-color: rgba(255, 36, 94, 1);
+	cursor: pointer;
 }
 
 .grid_large_2 {
@@ -332,12 +334,14 @@ hr {
   	background-size: cover;
   	height: 100vh;
 	grid-area: large2;
+	cursor: pointer;
 }
 
 .grid_large_2:hover .overlay {
 	transform: translateY(0px);
     opacity: 0.9;
     background-color: rgba(38, 38, 38, 1);
+	cursor: pointer;
 }
 
 .grid_large_3 {
@@ -348,12 +352,14 @@ hr {
   	background-size: cover;
   	height: 100vh;
 	grid-area: large2;
+	cursor: pointer;
 }
 
 .grid_large_3:hover .overlay {
 	transform: translateY(0px);
     opacity: 0.9;
     background-color: rgba(23, 111, 176, 1);
+	cursor: pointer;
 }
 
 .grid_large_4 {
@@ -364,88 +370,210 @@ hr {
   	background-size: cover;
   	height: 100vh;
 	grid-area: large2;
+	cursor: pointer;
 }
 
 .grid_large_4:hover .overlay {
 	transform: translateY(0px);
     opacity: 0.9;
     background-color: rgba(220, 59, 21, 1);
+	cursor: pointer;
 }
 
 .grid_small_1a {
+	grid-area: small1a;
+  	height: 50vh;
+  	overflow: hidden;
+}
+
+.grid_small_1a:hover .grid_small_1a_image,
+.grid_small_1a:focus .grid_small_1a_image {
+  transform: scale(1.1);
+}
+
+.grid_small_1a_image {
 	background-image: url("./img/actiontime_gif_2.gif");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 50vh;
-	grid-area: small1a;
+  	height: 100%;
+  	width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .grid_small_1b {
+	grid-area: small1b;
+  	height: 50vh;
+  	overflow: hidden;
+}
+
+.grid_small_1b:hover .grid_small_1b_image,
+.grid_small_1b:focus .grid_small_1b_image {
+  transform: scale(1.1);
+}
+
+.grid_small_1b_image {
 	background-image: url("./img/actiontime_illustration.png");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 50vh;
-	grid-area: small1b;
+  	height: 100%;
+  	width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .grid_small_2a {
+	grid-area: small2a;
+  	height: 50vh;
+  	overflow: hidden;
+}
+
+.grid_small_2a:hover .grid_small_2a_image,
+.grid_small_2a:focus .grid_small_2a_image {
+  transform: scale(1.1);
+}
+
+.grid_small_2a_image {
 	background-image: url("./img/perfectweekend_tablet_2.png");
 	background-color: rgba(212, 45, 23, 1);
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 50vh;
-	grid-area: small2a;
+  	height: 100%;
+  	width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .grid_small_2b {
+	grid-area: small2b;
+  	height: 50vh;
+  	overflow: hidden;
+}
+
+.grid_small_2b:hover .grid_small_2b_image,
+.grid_small_2b:focus .grid_small_2b_image {
+  transform: scale(1.1);
+}
+
+.grid_small_2b_image {
 	background-image: url("./img/perfectweekend_mobile_1.png");
     background-color: rgba(255, 204, 153, 1);
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 50vh;
-	grid-area: small2b;
+  	height: 100%;
+  	width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .grid_small_3a {
+	grid-area: small3a;
+  	height: 50vh;
+  	overflow: hidden;
+}
+
+.grid_small_3a:hover .grid_small_3a_image,
+.grid_small_3a:focus .grid_small_3a_image {
+  transform: scale(1.1);
+}
+
+.grid_small_3a_image {
 	background-image: url("./img/sensibleportions_tablet_1.png");
     background-color: rgba(252, 209, 51, 1);
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 50vh;
-	grid-area: small3a;
+  	height: 100%;
+  	width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .grid_small_3b {
+	grid-area: small3b;
+  	height: 50vh;
+  	overflow: hidden;
+}
+
+.grid_small_3b:hover .grid_small_3b_image,
+.grid_small_3b:focus .grid_small_3b_image {
+  transform: scale(1.1);
+}
+
+.grid_small_3b_image {
 	background-image: url("./img/sensibleportions_mobile_1.png");
     background-color: rgba(109, 190, 69, 1);
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 50vh;
-	grid-area: small3b;
+  	height: 100%;
+  	width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .grid_small_4a {
+	grid-area: small4a;
+  	height: 50vh;
+  	overflow: hidden;
+}
+
+.grid_small_4a:hover .grid_small_4a_image,
+.grid_small_4a:focus .grid_small_4a_image {
+  transform: scale(1.1);
+}
+
+.grid_small_4a_image {
 	background-image: url("./img/hotelprices_gif_1.gif");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 50vh;
-	grid-area: small4a;
+  	height: 100%;
+  	width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .grid_small_4b {
+	grid-area: small4b;
+  	height: 50vh;
+  	overflow: hidden;
+}
+
+.grid_small_4b:hover .grid_small_4b_image,
+.grid_small_4b:focus .grid_small_4b_image {
+  transform: scale(1.1);
+}
+
+.grid_small_4b_image {
 	background-image: url("./img/hotelprices_desktop_2.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 50vh;
-	grid-area: small4b;
+  	height: 100%;
+  	width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 
 .overlay {
