@@ -309,7 +309,7 @@ hr {
 }
 
 .grid_large_1 {
-	background-image: url("./img/actiontime_UI_2.png");
+	background-image: url("./style/img/actiontime_UI_2.png");
     background-color: rgba(255, 255, 255, 0.6);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -325,7 +325,7 @@ hr {
 }
 
 .grid_large_2 {
-	background-image: url("./img/perfectweekend_image_2.png");
+	background-image: url("./style/img/perfectweekend_image_2.png");
     background-color: rgba(255, 255, 255, 1);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -341,7 +341,7 @@ hr {
 }
 
 .grid_large_3 {
-	background-image: url("./img/sensibleportions_image_1.png");
+	background-image: url("./style/img/sensibleportions_image_1.png");
     background-color: rgba(255, 255, 255, 1);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -357,7 +357,7 @@ hr {
 }
 
 .grid_large_4 {
-	background-image: url("./img/hotelprices_image_3.png");
+	background-image: url("./style/img/hotelprices_image_3.png");
     background-color: rgba(255, 255, 255, 1);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -373,7 +373,7 @@ hr {
 }
 
 .grid_small_1a {
-	background-image: url("./img/actiontime_gif_2.gif");
+	background-image: url("./style/img/actiontime_gif_2.gif");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -382,7 +382,7 @@ hr {
 }
 
 .grid_small_1b {
-	background-image: url("./img/actiontime_illustration.png");
+	background-image: url("./style/img/actiontime_illustration.png");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -391,7 +391,7 @@ hr {
 }
 
 .grid_small_2a {
-	background-image: url("./img/perfectweekend_tablet_2.png");
+	background-image: url("./style/img/perfectweekend_tablet_2.png");
 	background-color: rgba(212, 45, 23, 1);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -401,7 +401,7 @@ hr {
 }
 
 .grid_small_2b {
-	background-image: url("./img/perfectweekend_mobile_1.png");
+	background-image: url("./style/img/perfectweekend_mobile_1.png");
     background-color: rgba(255, 204, 153, 1);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -411,7 +411,7 @@ hr {
 }
 
 .grid_small_3a {
-	background-image: url("./img/sensibleportions_tablet_1.png");
+	background-image: url("./style/img/sensibleportions_tablet_1.png");
     background-color: rgba(252, 209, 51, 1);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -421,7 +421,7 @@ hr {
 }
 
 .grid_small_3b {
-	background-image: url("./img/sensibleportions_mobile_1.png");
+	background-image: url("./style/img/sensibleportions_mobile_1.png");
     background-color: rgba(109, 190, 69, 1);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -431,7 +431,7 @@ hr {
 }
 
 .grid_small_4a {
-	background-image: url("./img/hotelprices_gif_1.gif");
+	background-image: url("./style/img/hotelprices_gif_1.gif");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -440,7 +440,7 @@ hr {
 }
 
 .grid_small_4b {
-	background-image: url("./img/hotelprices_desktop_2.jpg");
+	background-image: url("./style/img/hotelprices_desktop_2.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
