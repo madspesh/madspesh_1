@@ -329,14 +329,12 @@ hr {
   	background-size: cover;
   	height: 100vh;
 	grid-area: large1;
-	cursor: pointer;
 }
 
 .grid_large_1:hover .overlay {
 	transform: translateY(0px);
     opacity: 0.9;
     background-color: rgba(255, 36, 94, 1);
-	cursor: pointer;
 }
 
 .grid_large_2 {
@@ -347,14 +345,12 @@ hr {
   	background-size: cover;
   	height: 100vh;
 	grid-area: large2;
-	cursor: pointer;
 }
 
 .grid_large_2:hover .overlay {
 	transform: translateY(0px);
     opacity: 0.9;
     background-color: rgba(38, 38, 38, 1);
-	cursor: pointer;
 }
 
 .grid_large_3 {
@@ -365,14 +361,12 @@ hr {
   	background-size: cover;
   	height: 100vh;
 	grid-area: large2;
-	cursor: pointer;
 }
 
 .grid_large_3:hover .overlay {
 	transform: translateY(0px);
     opacity: 0.9;
     background-color: rgba(23, 111, 176, 1);
-	cursor: pointer;
 }
 
 .grid_large_4 {
@@ -383,14 +377,12 @@ hr {
   	background-size: cover;
   	height: 100vh;
 	grid-area: large2;
-	cursor: pointer;
 }
 
 .grid_large_4:hover .overlay {
 	transform: translateY(0px);
     opacity: 0.9;
     background-color: rgba(220, 59, 21, 1);
-	cursor: pointer;
 }
 
 .grid_small_1a {
@@ -603,6 +595,10 @@ hr {
 .overlay_read_more {
 	bottom: 4em;
 	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 1.6em;
 }
 
 
