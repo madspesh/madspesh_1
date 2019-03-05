@@ -182,6 +182,39 @@ a.link_project_3:hover {
 }
 
 
+/*	-------------	BUTTONS	-------------	*/
+
+
+.btn {
+	border: none;
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 1.7em;
+	color: rgba(0, 0, 0, 0.8);
+	background: none;
+	cursor: pointer;
+	padding: 14px 24px;
+	display: inline-block;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-1 {
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-1a:hover,
+.btn-1a:active {
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+
 /*	-------------	NAVIGATION	-------------	*/
 
 .navigation_top {
