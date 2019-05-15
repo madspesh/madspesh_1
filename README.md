@@ -1,3 +1,3 @@
 # home
 
-My porttfolio website 🤪
+My portfolio website 🤪
